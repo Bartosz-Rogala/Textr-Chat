@@ -1,7 +1,0 @@
-package rogala.client;
-
-import java.util.ArrayList;
-
-public class User {
-    public String name;
-}

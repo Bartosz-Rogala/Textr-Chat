@@ -1,5 +1,0 @@
-package rogala.client;
-
-public class User {
-	public String name;
-}

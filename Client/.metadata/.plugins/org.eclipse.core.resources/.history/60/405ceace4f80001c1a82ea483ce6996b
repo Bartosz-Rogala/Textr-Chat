@@ -1,7 +1,0 @@
-module rogala.client {
-    requires javafx.controls;
-    requires javafx.fxml;
-
-    opens rogala.client to javafx.fxml;
-    exports rogala.client;
-}

@@ -62,7 +62,7 @@ public class MainController extends Thread implements Initializable {
     public void connectSocket() {
         try {
             socket = new Socket("localhost", 9001);
-            System.out.println("Socket is connected with server!");
+            System.out.println("Socket is connected with server");
             reader = new BufferedReader(new InputStreamReader(socket.getInputStream()));
             writer = new PrintWriter(socket.getOutputStream(), true);
             this.start();
